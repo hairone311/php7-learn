@@ -1,5 +1,6 @@
 <?php
 
-echo "Olá mundo!";
+echo "Olá Mundo!";
+echo "Olá PHP7";
 
 ?>
