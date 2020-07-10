@@ -16,6 +16,6 @@ $meses = array(
 );
 
 foreach ($meses as $index => $mes) {
-    echo "Indice: " . $index . "<br>";
+    echo "Índice: " . $index . "<br>";
     echo "O mês é " . $mes . "<br><br>";
 }
