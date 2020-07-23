@@ -18,8 +18,27 @@ $search = Usuario::search("s");
 echo json_encode($search);
  */
 
-// Carrega um usuario usando login e senha
+/* Carrega um usuario usando login e senha
 $usuario = new Usuario();
 $usuario->login("hairone", "123456");
+echo $usuario;
+ */
 
+/*  Insere um novo usuario no banco
+$aluno = new Usuario("Eliseu Hairone", "linkedin");
+$aluno->insert();
+echo $aluno;
+ */
+
+/* Atualiza dados do usuario no banco
+$usuario = new Usuario();
+$usuario->loadById(16);
+echo $usuario;
+$usuario->update("Hairone", "git");
+echo $usuario;
+ */
+
+$usuario = new Usuario();
+$usuario->loadById(22);
+$usuario->delete();
 echo $usuario;
