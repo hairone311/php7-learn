@@ -1,0 +1,15 @@
+{
+    "name": "hairone311/composer",
+    "description": "Aula de PHP7",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Eliseu Hairone",
+            "email": "eliseuarviscoh@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog": "1.0."
+    }
+}
