@@ -3,7 +3,7 @@
 </head>
 
 <form action="cadastrar.php" method="POST">
-    <div class="g-recaptcha" data-sitekey="6LfRxrsZAAAAABwTMmAvnqgkkmoFdf_GDff1ECbT"></div>
+    <div class="g-recaptcha" data-sitekey="key"></div>
     <input type="email" name="inputEmail">
     <button type="submit">Enviar</button>
 </form>
